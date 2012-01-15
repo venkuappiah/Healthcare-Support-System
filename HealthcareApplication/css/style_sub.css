@@ -1,0 +1,185 @@
+.header
+{
+    width:800px;
+    height: 100px;
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+}
+
+
+.logout
+{
+    position:absolute;
+    width:200px;
+    left:700px;
+    top:0px;
+}
+
+.footer, .top_nav
+{
+    position: relative;
+    width: 800px;
+    top: 15px;
+    text-align: left;
+}
+
+.failure
+{
+    width:550px!important;
+    color: #FF0000;
+    left: 140px;
+    position:relative;
+    border-width:1px;
+    border-color:#000000;
+    border-style: solid;
+    background-color:#FFFF66;
+    padding:5px;
+}
+
+.success
+{
+    color: #006600;
+}
+
+.no_box_failure
+{
+    color: #FF0000;
+}
+
+.activity_box,.message_box
+{
+    width:200px;
+    border-width:1px;
+    border-style:dotted;
+    border-color:#FF0000;
+    background-color:#FFFFFF;
+    position:relative;
+    margin:10px;
+    padding:10px;
+}
+
+.message_box
+{
+    width:775px;
+    padding:0px;
+}
+
+.message_subject,.message_date,.message_action,.message_sender,.message_detail
+{
+    position:absolute;
+    top:0px;
+}
+.message_subject
+{
+    position:relative;
+    width:340px!important;
+}
+.message_date
+{
+    left:548px;
+    width:115px!important;
+}
+.message_action
+{
+    left:675px;
+    width:85px!important;
+}
+.message_sender
+{
+    left:350px;
+    width:185px!important;
+}
+.message_heading
+{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.message_detail
+{
+    left:125px;
+    top:-25px;
+    width:615px!important;
+    position:relative;
+}
+
+.top_nav
+{
+    top: 5px;
+    text-align: right;
+}
+
+.footer p, .top_nav p{
+    margin: 10px;
+}
+
+.header,.content,.footer, .top_nav
+{
+    border-style: solid;
+    border-width:1px;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+body
+{
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+    background-color: #99CCCC;
+}
+
+.content
+{
+    position: relative;
+    width:800px;
+    top:10px;
+    left: 0px;
+    text-align:left;
+}
+
+.content p
+{
+    margin: 10px;
+    width: 780px;
+    text-align: left;
+}
+
+h1,h2
+{
+    margin-left: 10px;
+}
+
+h1
+{
+    font-size: 20px;
+}
+
+h2
+{
+   font-size: 16px; 
+}
+
+.registration_form,.message_form
+{
+    width: 780px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.caption
+{
+    color:#000000;
+    font-weight:bold;
+    vertical-align:top;
+}
+
+.input_element
+{
+    display:inline;
+    position:absolute;
+    left:150px;
+}
