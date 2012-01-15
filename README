@@ -1,0 +1,3 @@
+1. The folder HealthcareApplication contains all the necessary codes for the Server based healthcare application.
+2. The folder MobileApplication contains the necessary files for sending information through SOAP to the server
+   and the basic programming codes in J2ME for GUI. 
